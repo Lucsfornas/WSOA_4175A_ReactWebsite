@@ -1,0 +1,102 @@
+.BlogsPg{
+    font-family: 'Roboto', san-serif;
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+        color: #b30f51;
+        width: auto;
+        margin-right: 0em;
+        font-size: 3.5em;
+        background-color: rgba(0, 0, 0, 0.83);
+        font-weight: 800;
+}
+
+.txt{
+    color: whitesmoke;
+        text-align: left;
+        font-size: 1em;
+        font-family: 'Roboto', san-serif;
+        margin: .75em;
+        line-height: 1.8em;
+    width: 50%;
+    
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+.containerwrap1{
+    margin: 1.5em;
+
+    }
+    
+    .plat-wrap1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+        .itemwrap1{
+            position: relative;
+            margin: 0.5em;
+        }
+        
+        .LP-background1{
+        height: 350px;
+        width:350px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        
+        .imgtxtwrapper1{
+            position: absolute;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin: 0.5rem;
+        }
+        
+        .logowrap1 svg{
+            color: whitesmoke;
+            font-size: 10em;
+            width: 50%;
+            margin: auto;
+            display: inline-block;
+        position: relative;
+        }
+        
+        .imgtxtwrapper1 .subtitle1 a{
+        transition: 1s;
+        font-weight: 600;
+        color: transparent;
+        overflow: hidden;
+        }
+        
+        .imgtxtwrapper1:hover .subtitle1 a{
+            font-weight: 800;
+            color: #00c58a;
+            text-decoration: none;
+            font-size: 3em;
+        }
+
+        .LP-background1:hover{
+            transition: 1s;
+            filter: brightness(10%);
+        }
+
+        .desc{
+            color: #b30f51;
+            font-size: 1.5em;
+            font-family: 'Roboto', san-serif;
+        }

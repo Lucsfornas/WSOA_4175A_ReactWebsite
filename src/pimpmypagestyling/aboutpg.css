@@ -1,0 +1,27 @@
+.aboutpg{
+    background-color: #2eaf7d;
+    width: 100%;
+    height: 95vh;
+}
+
+.heading4{
+        color: #b30f51;
+        width: auto;
+        margin-right: 0em;
+        font-size: 3.5em;
+        background-color: rgba(0, 0, 0, 0.83);
+        font-weight: 800;
+    
+}
+
+.txt4{
+        color: whitesmoke;
+        text-align: left;
+        font-size: 1em;
+        font-family: 'Roboto', san-serif;
+        margin: .75em;
+        line-height: 1.8em;
+    width: 70%;
+    
+    background-color: rgba(0, 0, 0, 0.83);
+}

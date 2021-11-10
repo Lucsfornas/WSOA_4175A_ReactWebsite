@@ -1,0 +1,162 @@
+.navbar {
+    width: 100%;
+    height: 8em;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Amatic SC', cursive;
+}
+
+.navbar .leftsidenav{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    font-size: 1.8em;
+    background-color: black;
+    margin: auto;
+}
+
+.navbar .leftsidenav .logotxt{
+    color: whitesmoke;
+    padding: 0.3em;
+    color: #00c58a;
+   
+}
+
+
+.navbar .leftsidenav img{
+    width: 140px;
+}
+
+.navbar .rightsidenav {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.navbar a{
+    color: #00c58a;
+    text-decoration: none;
+    margin: auto;
+    font-size: 1.6em;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: #b30f51;
+    transition-duration: 0.5s;
+    transform: scale(1.3);
+}
+
+.navbar .rightsidenav button{
+    background-color: transparent;
+    color: #00c58a;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .rightsidenav button:hover{
+    color: #b30f51;
+    transition-duration: 0.5s;
+}
+
+.hiddenLinks{
+    margin: auto;
+    font-size: 1em;
+}
+
+.navbar #open{
+    padding-left:0px;
+}
+
+.navbar #open img{
+    display: none;
+}
+
+.navbar #open .logotxt{
+    display: none;
+}
+
+.navbar #close img{
+    display: inherit;
+}
+
+.navbar #close .logotxt{
+    display: inherit;
+}
+
+.navbar #open .hiddenLinks{
+    display: inherit;
+}
+
+.navbar #close .hiddenLinks{
+    display: none !important;
+}
+
+.navbar #open a{
+    width: 20%;
+    margin: 2.3em;
+}
+
+@media only screen and (max-width:1024px){
+    
+    .navbar .rightsidenav{
+        width: 50%;
+    }
+    .navbar .leftsidenav{
+        
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .navbar .rightsidenav a{
+        display: none;
+    }
+    .navbar {
+        background-color: black;
+    }
+    .navbar .rightsidenav{
+        justify-content: flex-end;
+        background-color: black;
+        width: 50%;
+    }
+     .navbar .rightsidenav button{
+         display: inherit;
+         background-color: black;
+         padding-right: 5em;
+     }
+
+     .hiddenLinks{
+        position: relative;
+        right: 0px;
+        height: 92vh;
+        top:14vh;
+        background-color: black;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 1000;
+        overflow-x: hidden;
+     }
+
+}
+
+@media only screen and (min-width:700px){
+    .navbar .rightsidenav button{
+        display: none;
+    }
+    .hiddenLinks{
+        display: none;
+    }
+
+}

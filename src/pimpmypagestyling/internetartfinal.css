@@ -1,0 +1,64 @@
+.internetartfinalpg{
+    font-family: 'Roboto', san-serif;
+    background-color: #0c0032;
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.svgimgst{
+    height: 700px;
+    width: 700px;
+}
+
+.AFbutton{
+  
+    background-color: rgb(48, 48, 48);
+font-family: 'Roboto', sans-serif;
+width: 8em;
+height: auto;
+border: solid;
+border-radius: 1em;
+border-color: black;
+cursor: pointer;
+color: #b30f51;
+font-size: 1em;
+font-weight: bold;
+text-decoration: none;
+justify-content: center;
+margin: 0.5em;
+}
+
+.AFbutton:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+
+.filter1 {
+    transition: 2s;
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.filter2 {
+    transition: 2s;
+    filter: none;
+}
+
+.artworktxt{
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Roboto', san-serif;
+    margin: 1em;
+    line-height: 1em;
+    width: 70%;
+    padding-bottom: 0em;
+    padding-left: 6em;
+}
+
+
+
