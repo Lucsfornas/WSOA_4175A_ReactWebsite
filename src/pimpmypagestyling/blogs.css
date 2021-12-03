@@ -1,7 +1,7 @@
 .BlogsPg{
     font-family: 'Roboto', san-serif;
     width: 100%;
-    height: 140vh;
+    height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -11,8 +11,8 @@
     background-size: cover;
 }
 
-.heading{
-        color: #b30f51;
+.headingbloog{
+        color: #FF3131;
         width: auto;
         margin-right: 0em;
         font-size: 3.5em;
@@ -85,7 +85,7 @@
         
         .imgtxtwrapper1:hover .subtitle1 a{
             font-weight: 800;
-            color: #00c58a;
+            color: #39FF14;
             text-decoration: none;
             font-size: 3em;
         }
@@ -96,7 +96,7 @@
         }
 
         .desc{
-            color: #b30f51;
+            color: #FF3131;
             font-size: 1.5em;
             font-family: 'Roboto', san-serif;
         }

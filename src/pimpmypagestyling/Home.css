@@ -17,7 +17,7 @@
 }
 
 .heading{
-    color: #b30f51;
+    color: #FF3131;
     width: auto;
     margin-right: 0em;
     font-size: 3.5em;
@@ -26,7 +26,7 @@
 }
 
 .heading2{
-    color: #b30f51;
+    color: #FF3131;
     width: auto;
     margin-right: 0em;
     font-size: 2em;
@@ -34,20 +34,25 @@
     font-weight: 500;
 }
 
-.txt{
+p.txt{
         color: whitesmoke;
         text-align: left;
-        font-size: 1em;
+        font-size: 1.2em;
         font-family: 'Roboto', san-serif;
-        margin: .75em;
+        margin: .25em;
         line-height: 1.8em;
-    width: 50%;
+    width: 72%;
+    display: inline-block;
     
-    background-color: rgba(0, 0, 0, 0.83);
 }
 
-.txtcont{
-    margin: 1em;
+article.txtcont{
+    margin: 0em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', san-serif;
+    background-color: rgba(0, 0, 0, 0.83);
 }
 
 .containerwrap{
@@ -101,7 +106,7 @@
         
         .imgtxtwrapper:hover .subtitle a{
             font-weight: 800;
-            color: #b30f51;
+            color: #FF3131;
             text-decoration: none;
             font-size: 3em;
         }

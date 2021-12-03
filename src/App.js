@@ -15,7 +15,10 @@ import blog6 from './blogpages/blog6';
 import blog7 from './blogpages/blog7';
 import blog8 from './blogpages/blog8';
 import IAprop from './blogpages/IAproposal';
-import IAFinal from './internetart/InternetArtfinal'
+import IAFinal from './internetart/InternetArtfinal';
+import IAdesc from './blogpages/IAdesc';
+import blog9 from './blogpages/blog9examtech';
+import blog10 from './blogpages/blog10examartistic';
 
 
 function App() {
@@ -38,6 +41,9 @@ function App() {
         <Route exact path='/IAprop' component={IAprop} />
         <Route exact path='/IAFinal' component={IAFinal} />
         <Route exact path='/about' component={about} />
+        <Route exact path='/IAdesc' component={IAdesc} />
+        <Route exact path='/blog9' component={blog9} />
+        <Route exact path='/blog10' component={blog10} />
       </Switch>
       <Footer />
     </div >

@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import '../pimpmypagestyling/blogs.css';
-import blogbackgroundimg from '../images/fist4change.jpg';
+import blogbackgroundimg from '../images/fist4change1use.jpg';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { Link } from 'react-router-dom';
-import globeimg from '../images/globeIcon.jpg';
-import techimg from '../images/gears.jpg';
-import artimg from '../images/colours.jpg';
-import internetartimg1 from '../images/internetartimg.jpg';
-import IAim from '../images/fiberoptic.jpg';
+import globeimg from '../images/globeIcon1use.jpg';
+import techimg from '../images/circutboard1use.jpg';
+import artimg from '../images/colours1use.jpg';
+import internetartimg1 from '../images/internetartimg1use.jpg';
+import IAim from '../images/fiberoptic1use.jpg';
 
 
 export default class blogs extends Component {
     render() {
         return (
             <div className="BlogsPg" style={{ backgroundImage: `url(${blogbackgroundimg})` }}>
-                <h1 className="heading">Blog Posts Homepage</h1>
+                <h1 className="headingbloog">Blog Posts Homepage</h1>
                 <p className="txt">This is my navigational blog page that contains the different links to my blog posts.
                     These blog posts engage with the theory that is presented in the course as well as my own analysises,
                     technical and artistic reflections on my
@@ -158,6 +158,53 @@ export default class blogs extends Component {
 
                                 </div>
                             </div>
+
+                            <div className="itemwrap1">
+                                <div className="LP-background1" style={{ backgroundImage: `url(${IAim})` }}>
+                                </div>
+                                <div className="imgtxtwrapper1">
+                                    <h3 className="desc">Revised Internet artwork description from assignment 2</h3>
+                                    <div className="logowrap1">
+                                        <MenuBookIcon />
+                                    </div>
+                                    <div className="subtitle1">
+                                        <Link to='/IAdesc'>Revised Internet Art description</Link>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className="itemwrap1">
+                                <div className="LP-background1" style={{ backgroundImage: `url(${techimg})` }}>
+                                </div>
+                                <div className="imgtxtwrapper1">
+                                    <h3 className="desc">Exam Technical Reflection</h3>
+                                    <div className="logowrap1">
+                                        <MenuBookIcon />
+                                    </div>
+                                    <div className="subtitle1">
+                                        <Link to='/blog9'>Blog Post 9</Link>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className="itemwrap1">
+                                <div className="LP-background1" style={{ backgroundImage: `url(${artimg})` }}>
+                                </div>
+                                <div className="imgtxtwrapper1">
+                                    <h3 className="desc">Exam Artistic Reflection</h3>
+                                    <div className="logowrap1">
+                                        <MenuBookIcon />
+                                    </div>
+                                    <div className="subtitle1">
+                                        <Link to='/blog10'>Blog Post 10</Link>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </article>

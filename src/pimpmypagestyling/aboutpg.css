@@ -1,11 +1,11 @@
 .aboutpg{
-    background-color: #2eaf7d;
+    background-color: #0c0032;
     width: 100%;
-    height: 95vh;
+    height: auto;
 }
 
 .heading4{
-        color: #b30f51;
+        color: #FF3131;
         width: auto;
         margin-right: 0em;
         font-size: 3.5em;
@@ -14,14 +14,31 @@
     
 }
 
-.txt4{
-        color: whitesmoke;
-        text-align: left;
-        font-size: 1em;
-        font-family: 'Roboto', san-serif;
-        margin: .75em;
-        line-height: 1.8em;
-    width: 70%;
-    
+.txtcontainer{
+    margin: 0em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', san-serif;
     background-color: rgba(0, 0, 0, 0.83);
+}
+
+.txt4{
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1.8em;
+    font-family: 'Roboto', san-serif;
+    margin: .25em;
+    line-height: 1.8em;
+width: 72%;
+display: inline-block;
+}
+
+.stlguide{
+    color: #FF3131;
+        width: auto;
+        margin-right: 0em;
+        font-size: 3.5em;
+        background-color: rgba(0, 0, 0, 0.83);
+        font-weight: 500;
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import "../pimpmypagestyling/Home.css";
-import homeimg from '../images/tokyo.jpg';
-import blogsimg from '../images/blogsimg.jpg';
-import aboutimg from '../images/aboutimg.jpg';
-import internetartimg from '../images/internetartimg.jpg';
+import homeimg from '../images/tokyo1use.jpg';
+import blogsimg from '../images/globeIcon1use.jpg';
+import aboutimg from '../images/circutboard1use.jpg';
+import internetartimg from '../images/internetartimg1use.jpg';
 import penimg from '../images/penimgedited.png';
 import aboutmepic from '../images/aboutmeimg.png';
 import IA from '../images/internetartletters.png';
@@ -22,6 +22,7 @@ export default class Home extends Component {
                             the web. The blog posts deal with important ideas such as decolonisation, design justice, and critical
                             code studies.</p>
                     </article>
+                    <br />
                     <div className="containerwrap">
                         <div className="plat-wrap">
 

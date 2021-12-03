@@ -2,7 +2,7 @@
     font-family: 'Roboto', san-serif;
     background-color: #0c0032;
     width: 100%;
-    height: 140vh;
+    height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -39,26 +39,53 @@ margin: 0.5em;
 }
 
 .filter1 {
-    transition: 2s;
+    transition: 6s;
     filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 
 .filter2 {
-    transition: 2s;
+    transition: 6s;
     filter: none;
 }
 
 .artworktxt{
     color: whitesmoke;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'Roboto', san-serif;
     margin: 1em;
     line-height: 1em;
-    width: 70%;
+    width: 72%;
     padding-bottom: 0em;
-    padding-left: 6em;
+    padding-left: 0em;
 }
 
+.parentafrica{
+    display: inline-flex;
+    align-items: center;
+}
 
+.parentafrica .arrowpointright svg{
+fill: white;
+width: 4em;
+height: 4em;
+transition: 6s;
+}
 
+.parentafrica .arrowpointrightoff svg{
+    display: none;
+    transition: 6s;
+}
+
+.parentafrica .arrowpointleft svg{
+    fill: white;
+    width: 4em;
+height: 4em;
+transition: 6s;
+
+}
+
+.parentafrica .arrowpointleftoff svg{
+    display: none;
+    transition: 6s;
+}

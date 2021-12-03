@@ -1,30 +1,56 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import BurgerIcon from '@mui/icons-material/CalendarViewDay';
 
 export default class blog2 extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            openblogLinks: false
+
+        };
+        this.toggleblognav = this.toggleblognav.bind(this);
+    }
+
+
+    toggleblognav() {
+        this.setState(prevState => ({
+            openblogLinks: !prevState.openblogLinks
+        }));
+    }
     render() {
         return (
             <div className="blog1pg">
                 <h1 className="Blogheading">Internet Artwork Analysis Blog Posts</h1>
 
-                <p className="blogtxt">You can use these links to quickly navigate to my different blog posts.</p>
+                <p className="blogtxt">Toggle the burger menu to access other links</p>
 
-                <div className="BlogNav">
-                    <h2>Other Blog Posts:</h2>
-                    <p>Close Reading Blog Posts</p>
-                    <Link to="/blog1"><button>Blog 1</button></Link>
-                    <Link to="/blog5"><button>Blog 5</button></Link>
-                    <p>Internet Artwork Analysis Blog Posts</p>
-                    <Link to="/blog6"><button>Blog 6</button></Link>
-                    <p>Technical Reflection Blog Posts</p>
-                    <Link to="/blog3"><button>Blog 3</button></Link>
-                    <Link to="/blog7"><button>Blog 7</button></Link>
-                    <p>Artistic Reflection Blog Posts</p>
-                    <Link to="/blog4"><button>Blog 4</button></Link>
-                    <Link to="/blog8"><button>Blog 8</button></Link>
-                    <p>My Internet Art proposal from assingment 1</p>
-                    <Link to="/IAprop"><button>I/A Proposal</button></Link>
-                </div >
+                <div className="blognavdropdown">
+
+                    <div className="blognavbutton">
+                        <button onClick={this.toggleblognav}><BurgerIcon /></button>
+                    </div>
+
+                    <div className="BlogNav" id={this.state.openblogLinks ? "opened" : "closed"}>
+                        <h2>Other Blog Posts:</h2>
+                        <p>Close Reading Blog Posts</p>
+                        <Link to="/blog1"><button>Blog 1</button></Link>
+                        <Link to="/blog5"><button>Blog 5</button></Link>
+                        <p>Internet Artwork Analysis Blog Posts</p>
+                        <Link to="/blog6"><button>Blog 6</button></Link>
+                        <p>Technical Reflection Blog Posts</p>
+                        <Link to="/blog3"><button>Blog 3</button></Link>
+                        <Link to="/blog7"><button>Blog 7</button></Link>
+                        <Link to="/blog9"><button>Blog 9</button></Link>
+                        <p>Artistic Reflection Blog Posts</p>
+                        <Link to="/blog4"><button>Blog 4</button></Link>
+                        <Link to="/blog8"><button>Blog 8</button></Link>
+                        <Link to="/blog10"><button>Blog 10</button></Link>
+                        <p>My Internet Art proposal and descriptions from assignments 1 and 2</p>
+                        <Link to="/IAprop"><button>I/A Proposal</button></Link>
+                        <Link to="/IAdesc"><button>I/A Description</button></Link>
+                    </div >
+                </div>
 
                 <article className="blogcont">
                     <h2 className="Blogheading">Analysis of the internet artwork 'Vote-Auction' by Lizvlx and Hans Bernard</h2>
@@ -117,7 +143,11 @@ export default class blog2 extends Component {
                         </p>
                     </section>
                 </article>
-                <div className="BlogNav"><Link to="/blogs"><button>Back</button></Link></div>
+                <div className="BlogNavigation">
+                    <Link to="/blog1"><button>Previous Blog</button></Link>
+                    <Link to="/blogs"><button>Back</button></Link>
+                    <Link to="/blog3"><button>Next Blog</button></Link>
+                </div>
             </div >
         )
     }
