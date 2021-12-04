@@ -92,18 +92,6 @@ export default class blog4 extends Component {
                         to communicate areas of importance and draw the users attention to them.
                     </p>
                     <br />
-                    <p className="blogtxt">This child-parent relation between the colonial powers and the colonized is inherently racist and
-                        functions on inequality, this inequality is seen in the capitalist way of functioning and governing a
-                        country which is an inherently western way of running a country, this is a phenomenon that is present in
-                        most if not all colonized territories. As ruth Gilmore states in a YouTube interview, “we cannot undo
-                        racism without undoing capitalism” (antipodeonline 2020) she states this because the capitalist system
-                        was built and functions on inequality. If these western concepts are challenged and changed the
-                        colonized territories will no longer be in the shadow of the west and can instead rise. As Achille
-                        Mbembe states in his paper, “the terms of the competition are defined by the west” (Mbembe 2016) this
-                        highlights the importance of decolonization, if the colonized keep playing by the wests rules, they will
-                        surely come out second best because the system is angled against them.
-                    </p>
-                    <br />
                     <p className="blogtxt">I have specifically chosen the colour of white as the colour of my text because it provides the greatest
                         contrast in relation to the darker blue background, this makes the text easily distinguishable from the
                         rest of the site. The header of my site is also coloured differently to the rest of the site in a light
@@ -145,15 +133,6 @@ export default class blog4 extends Component {
                         easier on the website itself. These design elements are consistent throughout the site.
                     </p>
                     <br />
-                    <p className="blogtxt">
-                        One of my most important goals for this website is to be inclusive of everyone and not be biased in any
-                        way to people that come from different backgrounds and have different disabilities, I would like anyone,
-                        and everyone interested in internet art and my engaged with concepts such as decoloniality to engage
-                        with my work. This is however a work in progress and as I learn more the website will change and alter
-                        according to what I have learnt. I have also chosen to use two fonts from google fronts that are
-                        dyslexia friendly, this allows better communication that is inclusive of everyone and makes reading
-                        easier on the website itself. These design elements are consistent throughout the site.
-                    </p>
                     <section className="blogrefb">
                         <h3 className="references">
                             References</h3>

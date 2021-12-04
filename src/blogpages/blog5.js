@@ -35,7 +35,7 @@ export default class blog5 extends Component {
                     <div className="BlogNav" id={this.state.openblogLinks ? "opened" : "closed"}>
                         <h2>Other Blog Posts:</h2>
                         <p>Close Reading Blog Posts</p>
-                        <Link to="/blog5"><button>Blog 5</button></Link>
+                        <Link to="/blog1"><button>Blog 1</button></Link>
                         <p>Internet Artwork Analysis Blog Posts</p>
                         <Link to="/blog2"><button>Blog 2</button></Link>
                         <Link to="/blog6"><button>Blog 6</button></Link>
