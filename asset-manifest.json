@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WSOA_4175A_ReactWebsite/static/css/main.70955074.chunk.css",
-    "main.js": "/WSOA_4175A_ReactWebsite/static/js/main.a41ca9cf.chunk.js",
-    "main.js.map": "/WSOA_4175A_ReactWebsite/static/js/main.a41ca9cf.chunk.js.map",
+    "main.js": "/WSOA_4175A_ReactWebsite/static/js/main.8605806f.chunk.js",
+    "main.js.map": "/WSOA_4175A_ReactWebsite/static/js/main.8605806f.chunk.js.map",
     "runtime-main.js": "/WSOA_4175A_ReactWebsite/static/js/runtime-main.0f434afe.js",
     "runtime-main.js.map": "/WSOA_4175A_ReactWebsite/static/js/runtime-main.0f434afe.js.map",
     "static/js/2.2f69d981.chunk.js": "/WSOA_4175A_ReactWebsite/static/js/2.2f69d981.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.0f434afe.js",
     "static/js/2.2f69d981.chunk.js",
     "static/css/main.70955074.chunk.css",
-    "static/js/main.a41ca9cf.chunk.js"
+    "static/js/main.8605806f.chunk.js"
   ]
 }
