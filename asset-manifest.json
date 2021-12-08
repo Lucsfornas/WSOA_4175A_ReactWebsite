@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/WSOA_4175A_ReactWebsite/static/css/main.70955074.chunk.css",
-    "main.js": "/WSOA_4175A_ReactWebsite/static/js/main.8605806f.chunk.js",
-    "main.js.map": "/WSOA_4175A_ReactWebsite/static/js/main.8605806f.chunk.js.map",
+    "main.css": "/WSOA_4175A_ReactWebsite/static/css/main.1b7c9e59.chunk.css",
+    "main.js": "/WSOA_4175A_ReactWebsite/static/js/main.aed6094a.chunk.js",
+    "main.js.map": "/WSOA_4175A_ReactWebsite/static/js/main.aed6094a.chunk.js.map",
     "runtime-main.js": "/WSOA_4175A_ReactWebsite/static/js/runtime-main.0f434afe.js",
     "runtime-main.js.map": "/WSOA_4175A_ReactWebsite/static/js/runtime-main.0f434afe.js.map",
     "static/js/2.2f69d981.chunk.js": "/WSOA_4175A_ReactWebsite/static/js/2.2f69d981.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.eb64dd6f.chunk.js": "/WSOA_4175A_ReactWebsite/static/js/3.eb64dd6f.chunk.js",
     "static/js/3.eb64dd6f.chunk.js.map": "/WSOA_4175A_ReactWebsite/static/js/3.eb64dd6f.chunk.js.map",
     "index.html": "/WSOA_4175A_ReactWebsite/index.html",
-    "static/css/main.70955074.chunk.css.map": "/WSOA_4175A_ReactWebsite/static/css/main.70955074.chunk.css.map",
+    "static/css/main.1b7c9e59.chunk.css.map": "/WSOA_4175A_ReactWebsite/static/css/main.1b7c9e59.chunk.css.map",
     "static/js/2.2f69d981.chunk.js.LICENSE.txt": "/WSOA_4175A_ReactWebsite/static/js/2.2f69d981.chunk.js.LICENSE.txt",
     "static/media/OutlineAfrica.48d0488d.svg": "/WSOA_4175A_ReactWebsite/static/media/OutlineAfrica.48d0488d.svg",
     "static/media/circutboard1use.218bb1ff.jpg": "/WSOA_4175A_ReactWebsite/static/media/circutboard1use.218bb1ff.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.0f434afe.js",
     "static/js/2.2f69d981.chunk.js",
-    "static/css/main.70955074.chunk.css",
-    "static/js/main.8605806f.chunk.js"
+    "static/css/main.1b7c9e59.chunk.css",
+    "static/js/main.aed6094a.chunk.js"
   ]
 }
